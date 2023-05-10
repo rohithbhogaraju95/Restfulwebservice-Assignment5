@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{url_for('static',filename='styles/style.css')}}" type="text/css">
+</head>
+<body>
+	<header>
+		<h1>Books Store</h1>
+	</header>
+	<div id = "main">
+    {% for i in list_data %}
+		{% if 'order_id' in i %}
+			<div class="card">
+				<img src="{{i.image}}" alt="Image Here">
+				<div class="details">
+					<h5>{{i.customer_name}}</h5>
+					<h6>Order date:{{i.order_date}}</h6>
+					<h6>Quantity: {{i.quantity}}</h6>
+					<h6>Total Price: {{i.total_price}}</h6>
+				</div>
+			</div>
+		{% else %}
+			<div class="card">
+				<img src="{{i.image}}" alt="Image Here">
+				<div class="details">
+					<h3>{{i.title}}</h3>
+					<h5>Author: {{i.author}}</h5>
+					<h5>Price: {{i.price}}</h5>
+					<h5>Genre: {{i.genre}}</h5>
+				</div>
+			</div>
+		{% endif %}
+    {% endfor %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{url_for('static',filename='styles/style.css')}}" type="text/css">
+	<style>
+	.main {
+		margin: 50px auto;
+		text-align: center;
+		max-width: 600px;
+	}
+	h1 {
+		font-size: 3em;
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+	button {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.5em;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: #3e8e41;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Books Store</h1>
+	</header>
+	<div class = "main">
+		<h1>No Data Found</h1>
+		<p>We're sorry, but we couldn't find any data that matches your search criteria.</p>
+		<button onclick="window.history.back()">Go Back</button>
+	</div>
+</body>
+</html>

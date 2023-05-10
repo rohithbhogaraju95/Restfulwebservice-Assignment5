@@ -1,0 +1,156 @@
+{
+	"books": [
+	  {
+		"id": "1",
+		"title": "The Great Gatsby",
+		"author": "F. Scott Fitzgerald",
+		"price": 10.99,
+		"genre": "Classic",
+		"image": "https://kbimages1-a.akamaihd.net/2411acbb-9daa-43fb-a5a2-a9aec064e17e/1200/1200/False/the-great-gatsby-238.jpg",
+		"orders": [
+		  {
+			"order_id": "1",
+			"customer_name": "John Smith",
+			"image": "https://kbimages1-a.akamaihd.net/2411acbb-9daa-43fb-a5a2-a9aec064e17e/1200/1200/False/the-great-gatsby-238.jpg",
+			"order_date": "2022-04-10",
+			"quantity": 2,
+			"total_price": 21.98
+		  },
+		  {
+			"order_id": "2",
+			"customer_name": "Sarah Johnson",
+			"image": "https://kbimages1-a.akamaihd.net/2411acbb-9daa-43fb-a5a2-a9aec064e17e/1200/1200/False/the-great-gatsby-238.jpg",
+			"order_date": "2022-04-15",
+			"quantity": 1,
+			"total_price": 10.99
+		  }
+		]
+	  },
+	  {
+		"id": "2",
+		"title": "To Kill a Mockingbird",
+		"author": "Harper Lee",
+		"price": 12.99,
+		"image": "https://m.media-amazon.com/images/I/41j-s9fHJcL.jpg",
+		"genre": "Classic",
+		"orders": [
+		  {
+			"order_id": "1",
+			"customer_name": "Emily Nguyen",
+			"image": "https://m.media-amazon.com/images/I/41j-s9fHJcL.jpg",
+			"order_date": "2022-05-01",
+			"quantity": 1,
+			"total_price": 12.99
+		  }
+		]
+	  },
+	  {
+		"id": "3",
+		"title": "1984",
+		"author": "George Orwell",
+		"price": 8.99,
+		"image": "https://m.media-amazon.com/images/I/819ijTWp9JL.jpg",
+		"genre": "Romance",
+		"orders": [
+		  {
+			"order_id": "1",
+			"customer_name": "David Kim",
+			"image": "https://m.media-amazon.com/images/I/819ijTWp9JL.jpg",
+			"order_date": "2022-05-05",
+			"quantity": 3,
+			"total_price": 26.97
+		  },
+		  {
+			"order_id": "2",
+			"customer_name": "Jennifer Lee",
+			"image": "https://m.media-amazon.com/images/I/819ijTWp9JL.jpg",
+			"order_date": "2022-05-07",
+			"quantity": 1,
+			"total_price": 8.99
+		  }
+		]
+	  },
+		{
+			"id": "4",
+			"title": "Pride and Prejudice",
+			"image" :"https://images.squarespace-cdn.com/content/v1/5d253c231b7b3d000152f204/1636959802830-AW7JAWUJGCXXUYVIZC3J/Pride_and_Prejudice_Cover-Amazon-Front__77495.1569338564.386.513.jpg",
+			"author": "Jane Austen",
+			"price": 9.99,
+			"genre": "Romance",
+			"orders": []
+		  },
+		  {
+			"id": "5",
+			"title": "The Catcher in the Rye",
+			"image" : "https://kbimages1-a.akamaihd.net/264004f8-0018-4ec9-a503-eb3a686cb26e/353/569/90/False/j-d-salinger-s-the-catcher-in-the-rye-4.jpg",
+			"author": "J.D. Salinger",
+			"price": 8.99,
+			"genre": "Coming-of-age",
+			"orders": [
+			  {
+				"order_id": "1",
+				"customer_name": "Bob Smith",
+				"image" : "https://kbimages1-a.akamaihd.net/264004f8-0018-4ec9-a503-eb3a686cb26e/353/569/90/False/j-d-salinger-s-the-catcher-in-the-rye-4.jpg",
+				"quantity": 3,
+				"total_price": 26.97,
+				"order_date": "2022-04-10"
+			  }
+			]
+		  },
+		  {
+			"id": "6",
+			"title": "Brave New World",
+			"image" : "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+			"author": "Aldous Huxley",
+			"price": 10.99,
+			"genre": "Dystopian",
+			"orders": []
+		  },
+		  {
+			"id": "7",
+			"title": "The Hobbit",
+			"image" : "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+			"author": "J.R.R. Tolkien",
+			"price": 13.99,
+			"genre": "Fantasy",
+			"orders": []
+		  },
+		  {
+			"id": "8",
+			"title": "The Lord of the Rings",
+			"image" : "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+			"author": "J.R.R. Tolkien",
+			"price": 24.99,
+			"genre": "Fantasy",
+			"orders": [
+			  {
+				"order_id": "1",
+				"customer_name": "Emily Jones",
+				"image" : "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+				"quantity": 1,
+				"total_price": 24.99,
+				"order_date": "2022-04-10"
+			  }
+			]
+		  },
+		  {
+			"id": "9",
+			"title": "Animal Farm",
+			"author": "George Orwell",
+			"image" : "https://kbimages1-a.akamaihd.net/b6716610-4164-4195-829c-4bb44046a97a/1200/1200/False/animal-farm-graphic-novel.jpg",
+			"price": 9.99,
+			"genre": "Dystopian",
+			"orders": [
+			  {
+				"order_id": "1",
+				"customer_name": "Bob Smith",
+				"image" : "https://kbimages1-a.akamaihd.net/b6716610-4164-4195-829c-4bb44046a97a/1200/1200/False/animal-farm-graphic-novel.jpg",
+				"quantity": 2,
+				"total_price": 19.98,
+				"order_date": "2022-04-10"
+			  }
+			]
+		}
+	]
+  }
+  
